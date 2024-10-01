@@ -1,0 +1,53 @@
+/* EditBug.css */
+.edit-bug-container {
+    background-color: #f0f8ff; /* Light blue shade */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  .edit-bug-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #007bff;
+    text-align: center;
+  }
+  
+  .edit-bug-form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+    color: #333;
+  }
+  
+  .edit-bug-form input,
+  .edit-bug-form textarea,
+  .edit-bug-form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1rem;
+  }
+  
+  .edit-bug-form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .edit-bug-form button:hover {
+    background-color: #0056b3;
+  }
+  

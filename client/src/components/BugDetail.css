@@ -1,0 +1,34 @@
+/* BugDetail.css */
+.bug-detail-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 20px auto;
+  }
+  
+  .bug-detail-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .bug-detail-description {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .bug-detail-status,
+  .bug-detail-dates {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .bug-detail-status span,
+  .bug-detail-dates span {
+    font-weight: bold;
+    color: #333;
+  }
+  
